@@ -16,14 +16,12 @@ const main = function () {
 		//!  10123.1609  variables
 
 const myJson = {
-    
-    "name": "Randy",
-    "age": "64"
-    
-    
-};
 
-console.log(myJson["name"]);
+"name": "Randy";
+
+
+}
+
 
 
 

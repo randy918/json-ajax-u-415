@@ -13,27 +13,17 @@ window.onload = function () {
 //!  123122.1839        MAIN
 
 const main = function () {
-		//!  10123.1609  variables
+	//!  10123.1609  variables
 
-const myJson = {
-    
-    "name": "Randy",
-    "age": "64"
-    
-    
+	//!  10123.1609 functions
+
+	//!  10123.161 0  main body
+
+	let person = {
+		firstName: "John",
+        
+	};
+	c(person.firstName, person.lastName);
 };
 
-console.log(myJson["name"]);
-
-
-
-		//!  10123.1609 functions
-
-
-
-		//!  10123.161 0  main body
-
-
-
-	}
 //!  123122.1839  END

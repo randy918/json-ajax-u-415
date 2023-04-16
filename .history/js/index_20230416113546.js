@@ -18,7 +18,7 @@ const main = function () {
 const myJson = {
     
     "name": "Randy",
-    "age": "64"
+    ""
     
     
 };

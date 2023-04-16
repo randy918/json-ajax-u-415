@@ -18,12 +18,11 @@ const main = function () {
 const myJson = {
     
     "name": "Randy",
-    "age": "64"
     
     
 };
 
-console.log(myJson["name"]);
+console.log("myJson.n);
 
 
 

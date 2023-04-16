@@ -15,16 +15,8 @@ window.onload = function () {
 const main = function () {
 		//!  10123.1609  variables
 
-const myJson = {
-    
-    "name": "Randy",
-    "age": "64"
-    
-    
-};
-
-console.log(myJson["name"]);
-
+const theObject = {'firstName': 'Thomas'};
+c(theObject.firstName)
 
 
 		//!  10123.1609 functions
@@ -36,4 +28,5 @@ console.log(myJson["name"]);
 
 
 	}
+console.log("🚀 ~ file: index.js:31 ~ main ~ theObject.firstName:", theObject.firstName);
 //!  123122.1839  END

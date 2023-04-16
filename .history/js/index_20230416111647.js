@@ -15,16 +15,9 @@ window.onload = function () {
 const main = function () {
 		//!  10123.1609  variables
 
-const myJson = {
-    
-    "name": "Randy",
-    "age": "64"
-    
-    
-};
-
-console.log(myJson["name"]);
-
+const theObject = {'firstName': 'Thomas'};
+c(theObject.firstName)
+console.log("🚀 ~ file: index.js:20 ~ main ~ theObject:", theObject);
 
 
 		//!  10123.1609 functions

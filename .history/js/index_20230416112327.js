@@ -15,15 +15,10 @@ window.onload = function () {
 const main = function () {
 		//!  10123.1609  variables
 
-const myJson = {
-    
-    "name": "Randy",
-    "age": "64"
-    
-    
-};
+const theObject = {'firstName': 'Thomas'};
 
-console.log(myJson["name"]);
+theObject.lastName = "Dill";
+
 
 
 
