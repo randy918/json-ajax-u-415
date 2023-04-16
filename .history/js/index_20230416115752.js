@@ -23,17 +23,13 @@ const myJson = {
     
 };
 
-const myJsonStringify = JSON.stringify(myJson);
-
-console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringify);
-
-
 
 
 
 //!  10123.1609 functions
 
 
+console.log(myJson["hobby"]);
 
 //!  10123.161 0  main body
 

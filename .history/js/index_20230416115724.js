@@ -20,24 +20,20 @@ const myJson = {
     "name": "Randy",
     "age": "64", "hobby": "coding"
     
+    console.log(myJson["hobby"]);
     
 };
 
-const myJsonStringify = JSON.stringify(myJson);
-
-console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringify);
 
 
 
-
-
-//!  10123.1609 functions
-
-
-
-//!  10123.161 0  main body
+		//!  10123.1609 functions
 
 
 
-}
+		//!  10123.161 0  main body
+
+
+
+	}
 //!  123122.1839  END

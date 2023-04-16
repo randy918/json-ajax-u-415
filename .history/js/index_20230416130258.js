@@ -24,7 +24,6 @@ const myJson = {
 };
 
 const myJsonStringify = JSON.stringify(myJson);
-
 console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringify);
 
 

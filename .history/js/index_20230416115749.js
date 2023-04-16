@@ -23,11 +23,6 @@ const myJson = {
     
 };
 
-const myJsonStringify = JSON.stringify(myJson);
-
-console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringify);
-
-
 
 
 
@@ -35,6 +30,7 @@ console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringif
 
 
 
+console.log(myJson["hobby"]);
 //!  10123.161 0  main body
 
 

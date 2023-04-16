@@ -23,11 +23,9 @@ const myJson = {
     
 };
 
-const myJsonStringify = JSON.stringify(myJson);
+const myJsonString
 
-console.log("🚀 ~ file: index.js:27 ~ main ~ myJsonStringify:", myJsonStringify);
-
-
+console.log(myJson.age);
 
 
 
