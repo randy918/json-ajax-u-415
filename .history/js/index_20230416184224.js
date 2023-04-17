@@ -44,8 +44,8 @@ const main = function () {
         localStorage.setItem('tester', tempValue)
         c('clicked '+tempValue);
 	}
-	function addLastNameToLocalStorage(str) {
-		const tempValue = document.getElementById("lastName").value;
+	function addstNameToLocalStorage(str) {
+		const tempValue = document.getElementById("firstName").value;
         localStorage.setItem('tester', tempValue)
         c('clicked '+tempValue);
 	}

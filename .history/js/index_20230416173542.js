@@ -28,24 +28,16 @@ const main = function () {
 	//!  10123.1609 Event Listeners
 
 	document
-		.getElementById("firstButton")
-		.addEventListener("click", addFirstNameToLocalStorage);
-	document
-		.getElementById("lastButton")
-		.addEventListener("click", addLastNameToLocalStorage);
+		.getElementById("addButton")
+		.addEventListener("click", addToStorage);
 	document
 		.getElementById("seeButton")
-		.addEventListener("click", receiveFromLocalStorage);
+		.addEventListener("click", viewStorage);
 
 	//!  10123.1609 functions
 
-	function addFirstNameToLocalStorage(str) {
+	function addToLocalStorage(s) {
 		const tempValue = document.getElementById("firstName").value;
-        localStorage.setItem('tester', tempValue)
-        c('clicked '+tempValue);
-	}
-	function addLastNameToLocalStorage(str) {
-		const tempValue = document.getElementById("lastName").value;
         localStorage.setItem('tester', tempValue)
         c('clicked '+tempValue);
 	}

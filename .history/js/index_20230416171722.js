@@ -28,38 +28,26 @@ const main = function () {
 	//!  10123.1609 Event Listeners
 
 	document
-		.getElementById("firstButton")
-		.addEventListener("click", addFirstNameToLocalStorage);
-	document
-		.getElementById("lastButton")
-		.addEventListener("click", addLastNameToLocalStorage);
+		.getElementById("addButton")
+		.addEventListener("click", addToStorage);
 	document
 		.getElementById("seeButton")
-		.addEventListener("click", receiveFromLocalStorage);
+		.addEventListener("click", viewStorage);
 
 	//!  10123.1609 functions
 
-	function addFirstNameToLocalStorage(str) {
+	function addToStorage() {
 		const tempValue = document.getElementById("firstName").value;
         localStorage.setItem('tester', tempValue)
         c('clicked '+tempValue);
 	}
-	function addLastNameToLocalStorage(str) {
-		const tempValue = document.getElementById("lastName").value;
-        localStorage.setItem('tester', tempValue)
-        c('clicked '+tempValue);
-	}
 
-	function receiveFromLocalStorage() {
+	function viewStorage() {
         const tempHolder = localStorage.getItem('tester');
         c(tempHolder);
 	}
 
-    function stringifyToLocalStorage(str) {
-return 
-
-
-    } 
+    function parseToSt
 
 	//!  10123.161 0  MAIN
 };

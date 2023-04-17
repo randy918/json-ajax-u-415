@@ -29,23 +29,18 @@ const main = function () {
 
 	document
 		.getElementById("firstButton")
-		.addEventListener("click", addFirstNameToLocalStorage);
+		.addEventListener("click", addFirstNToLocalStorage);
 	document
 		.getElementById("lastButton")
-		.addEventListener("click", addLastNameToLocalStorage);
+		.addEventListener("click", addToLocalStorage);
 	document
 		.getElementById("seeButton")
 		.addEventListener("click", receiveFromLocalStorage);
 
 	//!  10123.1609 functions
 
-	function addFirstNameToLocalStorage(str) {
+	function addToLocalStorage(str) {
 		const tempValue = document.getElementById("firstName").value;
-        localStorage.setItem('tester', tempValue)
-        c('clicked '+tempValue);
-	}
-	function addLastNameToLocalStorage(str) {
-		const tempValue = document.getElementById("lastName").value;
         localStorage.setItem('tester', tempValue)
         c('clicked '+tempValue);
 	}
